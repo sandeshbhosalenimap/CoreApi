@@ -11,9 +11,6 @@ namespace Models
 
         public string Description { get; set; }
 
-        public static implicit operator Student(List<Student> v)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }
