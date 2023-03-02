@@ -11,6 +11,5 @@ namespace Models
 
         public string Description { get; set; }
 
-
     }
 }

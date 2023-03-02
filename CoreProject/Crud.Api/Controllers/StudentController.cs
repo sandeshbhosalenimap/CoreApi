@@ -15,58 +15,53 @@ using System.Threading.Tasks;
 namespace Crude.Api.Controllers
 {
 
+    [Route("Student")]
     [ApiController]
     public class StudentController : ControllerBase
     {
-        private IStudentServices _studentService;
-      private IMapper _mapper;
-        public StudentController(IStudentServices student, IMapper mapper)
+        private  readonly _studentService;
+        private readonly IMapper _mapper;
+        public StudentController(IStudentServices studentService, IMapper mapper)
         {
-            _studentService = student;
+            _studentService = studentService;
             _mapper = mapper;   
         }
 
-        [HttpGet]
-        [Route("Student/StudentList")]
+        [HttpGet("StudentList")]
         public async Task<IActionResult> StudentList()
         {
             var data = await _studentService.StudentList();
-            if(data != null)
+            if(data == null)
             {
                 throw new ArgumentNullException(nameof(data));  
             }
             return Ok(data);
-
         }
 
-        [HttpGet]
-        [Route("Student/GetStudentByID/{id}")]
-        public async Task<IActionResult> GetStudentByID([FromRoute] int id)
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetByID([FromRoute] int id)
         {
             var student = await _studentService.GetStudentDetails(id);
             var DTOModel = _mapper.Map<IEnumerable<StudentDTO>>(student);
                 return Ok(DTOModel);     
         }
 
-        [HttpPut]
-        [Route("Student/EditStudent/{id}")]
-        public async Task<IActionResult> EditStudent([FromRoute] int id, [FromBody] Student student)
+        [HttpPut("UpdateStudent")]
+        public async Task<IActionResult> Edit( [FromBody] Student student)
         {
             await _studentService.EditStudent(id, student);
             return Ok();
         }
 
-        [HttpDelete]
-        [Route("Student/DeleteStudent{id}")]
-        public async Task<IActionResult> DeleteStudent([FromRoute] int id)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete([FromRoute] int id)
         {
             await _studentService.Delete(id);
             return Ok();
         }
 
-        [HttpPost]
-        [Route("Student/CreateStudent")]
-        public async Task<IActionResult> CreateStudent([FromBody] Student student)
+        [HttpPost("AddStudent")]
+        public async Task<IActionResult> Create([FromBody] Student student)
         {
             await _studentService.AddNewStudent(student);
             return Ok();
