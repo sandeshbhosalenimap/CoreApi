@@ -45,8 +45,8 @@ namespace Crude.Api
             services.AddControllers();
             services.AddDbContext<DataBaseContext>(options =>
             options.UseSqlServer(ConnectionString));
-            services.AddTransient<IStudentRepository, StudentRepository>();
-            services.AddTransient<IStudentServices,  StudentServices>();
+            services.AddScoped<IStudentRepository, StudentRepository>();
+            services.AddScoped<IStudentServices,  StudentServices>();
             var config = new AutoMapper.MapperConfiguration(c =>
             {
                 c.AddProfile(new ApplicationProfile());
