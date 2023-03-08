@@ -1,0 +1,16 @@
+C:\Users\HP\source\repos\API\API.DataBase\bin\Debug\API.DataBase.dll.config
+C:\Users\HP\source\repos\API\API.DataBase\bin\Debug\API.DataBase.dll
+C:\Users\HP\source\repos\API\API.DataBase\bin\Debug\API.DataBase.pdb
+C:\Users\HP\source\repos\API\API.DataBase\bin\Debug\API.Models.dll
+C:\Users\HP\source\repos\API\API.DataBase\bin\Debug\EntityFramework.dll
+C:\Users\HP\source\repos\API\API.DataBase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\source\repos\API\API.DataBase\bin\Debug\API.Models.pdb
+C:\Users\HP\source\repos\API\API.DataBase\bin\Debug\EntityFramework.xml
+C:\Users\HP\source\repos\API\API.DataBase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\source\repos\API\API.DataBase\obj\Debug\API.DataBase.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\API\API.DataBase\obj\Debug\API.DataBase.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\API\API.DataBase\obj\Debug\API.DataBase.csproj.CopyComplete
+C:\Users\HP\source\repos\API\API.DataBase\obj\Debug\API.DataBase.dll
+C:\Users\HP\source\repos\API\API.DataBase\obj\Debug\API.DataBase.pdb
+C:\Users\HP\source\repos\API\API.DataBase\obj\Debug\API.DataBase.Migrations.Initial.resources
+C:\Users\HP\source\repos\API\API.DataBase\obj\Debug\API.DataBase.csproj.GenerateResource.cache

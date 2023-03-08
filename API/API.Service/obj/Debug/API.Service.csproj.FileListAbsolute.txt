@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\API\API.Service\bin\Debug\API.Service.dll
+C:\Users\HP\source\repos\API\API.Service\bin\Debug\API.Service.pdb
+C:\Users\HP\source\repos\API\API.Service\bin\Debug\API.DataBase.dll
+C:\Users\HP\source\repos\API\API.Service\bin\Debug\API.Models.dll
+C:\Users\HP\source\repos\API\API.Service\bin\Debug\EntityFramework.dll
+C:\Users\HP\source\repos\API\API.Service\bin\Debug\API.DataBase.pdb
+C:\Users\HP\source\repos\API\API.Service\bin\Debug\API.DataBase.dll.config
+C:\Users\HP\source\repos\API\API.Service\bin\Debug\API.Models.pdb
+C:\Users\HP\source\repos\API\API.Service\bin\Debug\EntityFramework.xml
+C:\Users\HP\source\repos\API\API.Service\obj\Debug\API.Service.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\API\API.Service\obj\Debug\API.Service.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\API\API.Service\obj\Debug\API.Service.csproj.CopyComplete
+C:\Users\HP\source\repos\API\API.Service\obj\Debug\API.Service.dll
+C:\Users\HP\source\repos\API\API.Service\obj\Debug\API.Service.pdb

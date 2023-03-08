@@ -1,0 +1,6 @@
+C:\Users\HP\source\repos\API\API.Models\bin\Debug\API.Models.dll
+C:\Users\HP\source\repos\API\API.Models\bin\Debug\API.Models.pdb
+C:\Users\HP\source\repos\API\API.Models\obj\Debug\API.Models.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\API\API.Models\obj\Debug\API.Models.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\API\API.Models\obj\Debug\API.Models.dll
+C:\Users\HP\source\repos\API\API.Models\obj\Debug\API.Models.pdb
